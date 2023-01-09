@@ -6,20 +6,13 @@ const jwt = require('jsonwebtoken');
 const app = express();
 const port = process.env.PORT || 5000 ;
 
-// middele were -------------
+//-------- middele were -------------
 
 app.use(cors());
 app.use(express.json())
 
-// username=dbuser1
-// passward=MxzIO6IJhsVx1tXA
-
-  
-
-
-
-
-
+//----- username=dbuser1
+//----- passward=MxzIO6IJhsVx1tXA
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASSWORD}@cluster0.2ulkcud.mongodb.net/?retryWrites=true&w=majority`;
 
